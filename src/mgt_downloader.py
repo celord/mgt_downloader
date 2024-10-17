@@ -1,10 +1,9 @@
-from urllib.parse import urljoin
-
 import requests
 import constants as const
 import util
 import argparse
 import curlify
+import sys
 
 
 def add_magnet_to_real_debrid(config, magnet_link, headers):
@@ -66,7 +65,7 @@ def get_download_links(torrent_id):
         return []
 
 
-def main():
+def main(raw_args=None):
     parser = argparse.ArgumentParser(description='Download a torrent from Real Debrid')
     parser.add_argument('magnet_link', help='The magnet link of the torrent to download')
     args = parser.parse_args()
@@ -79,5 +78,5 @@ def main():
     print('Download started')
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
 
