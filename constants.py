@@ -1,0 +1,7 @@
+REAL_DEBRID_API_URL = 'https://api.real-debrid.com/rest/1.0/'
+REAL_DEBRID_OAUTH_URL = 'https://api.real-debrid.com/oauth/v2/token'
+REAL_DEBRID_GET_FILE_IDS_URL = REAL_DEBRID_API_URL + 'torrents/info/'
+REAL_DEBRID_OAUTH_CLIENT_ID = 'X245A4XAIBGVM'
+REAL_DEBRID_OAUTH_ACCESS_TOKEN = 'apitoken'
+REAL_DEBRID_ADD_MAGNET_URL = REAL_DEBRID_API_URL + 'torrents/addMagnet'
+REAL_DEBRID_SELECT_FILES_URL = REAL_DEBRID_API_URL + 'torrents/selectFiles'
