@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'mgt_downloader=mgt_dowloader:main',
+            'mgt_downloader=mgt_downloader:main',
         ],
     },
     classifiers=[
