@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mgt_downloader',
-    version='0.1.0',
+    version='0.1.1',
     description='A script to download torrents using Real Debrid',
     author='Cesar Garcia',
     author_email='celord@gmail.com',
