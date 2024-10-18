@@ -1,6 +1,6 @@
 import requests
-import constants as const
-import util
+from . import constants as const
+from . import util
 import argparse
 import curlify
 import sys
